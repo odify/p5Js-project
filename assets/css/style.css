@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(/assets/img/bg-img.png);
+    background-repeat: repeat-x;
+}
+main{
+    width: 120vw;
+    background-image: url(/assets/img/bg-img.png);
+    background-repeat: repeat-x;
+}
+header{
+    background-color: #F25c27;
+    text-align: center;
+    text-shadow: 1.17px 0.22px 1.44px #fff;
+    border: 2px outset #191919;
+}
+.headline{
+    font-size: 1.42em;
+    color: #fff;
+    letter-spacing: 0.67px;
+    background-color: #F25c23;
+    text-shadow: 1.77px 2.22px 3.44px #191919;
+    text-transform: uppercase;
+    animation-name: xy;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@keyframes xy{
+    0% {margin-left: 2%;}
+    33% {margin-right: 1%;}
+    66% {margin-left: 1%;}
+    100% {margin-left: 1%; color: black;}
+}
+.p5Canvas{
+  max-width: fit-content;
+}
